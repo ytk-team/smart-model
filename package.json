@@ -1,6 +1,6 @@
 {
-  "name": "smart-model",
-  "version": "1.1.0",
+  "name": "@qtk/smart-model",
+  "version": "1.0.0",
   "description": "a smart model middleware",
   "main": "index.js",
   "bin": {
