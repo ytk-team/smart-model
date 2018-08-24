@@ -42,6 +42,9 @@ module.exports = async (param) => {
                     case 'integer':
                         sql += ` INTEGER NOT NULL DEFAULT ${desc.default}`;
                         break;
+                    case 'text':
+                        sql += ` TEXT NOT NULL`;
+                        break;                         
                 }
             });
             Object.entries(current).forEach(([field, desc]) => {

@@ -24,6 +24,9 @@ function addFieldSql(database, table, field, desc) {
         case 'integer':
             sql += ` INTEGER NOT NULL DEFAULT ${desc.default}`;
             break;
+        case 'text':
+            sql += ` TEXT NOT NULL`;
+            break;               
     }
     switch (desc.index) {
         case 'unique':
