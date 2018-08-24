@@ -1,6 +1,6 @@
 {
-  "name": "smart-model",
-  "version": "1.0.18",
+  "name": "@qtk/smart-model",
+  "version": "1.0.0",
   "description": "a smart model middleware",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rayanywhere/smart-model.git"
+    "url": "git+https://github.com/vanchu001/smart-model.git"
   },
   "keywords": [
     "smart",
@@ -21,9 +21,9 @@
   "author": "ray",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rayanywhere/smart-model/issues"
+    "url": "https://github.com/vanchu001/smart-model/issues"
   },
-  "homepage": "https://github.com/rayanywhere/smart-model#readme",
+  "homepage": "https://github.com/vanchu001/smart-model#readme",
   "dependencies": {
     "ajv": "^5.2.3",
     "fs-extra": "^4.0.2",
